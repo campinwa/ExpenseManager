@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        // Define any environment variables here, if needed
-        // e.g., MAVEN_HOME = '/path/to/maven'
-    }
-
     stages {
         stage('Checkout') {
             steps {
