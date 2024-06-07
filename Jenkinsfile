@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the Git repository
-                git 'https://github.com/campinwa/ExpenseManager.git'
+                git branch: 'main', url: 'https://github.com/campinwa/ExpenseManager.git'
             }
         }
 
